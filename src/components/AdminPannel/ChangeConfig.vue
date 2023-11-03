@@ -15,9 +15,6 @@
     <el-form-item label="强制SSL模式开关" prop="ssl">
       <el-switch v-model="changeConfigForm.ssl" size="large" />
     </el-form-item>
-    <el-form-item label="自动更新版本开关" prop="auto_update_version">
-      <el-switch v-model="changeConfigForm.auto_update_version" size="large" />
-    </el-form-item>
     <el-form-item label="公告开关" prop="announceSwitch">
       <el-switch v-model="changeConfigForm.announceSwitch" size="large" />
     </el-form-item>
